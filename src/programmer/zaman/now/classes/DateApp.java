@@ -30,6 +30,7 @@ public class DateApp {
         calender.set(Calendar.MONTH, Calendar.MAY);
         calender.set(Calendar.YEAR, 2022);
         calender.set(Calendar.DATE, 20);
+        calender.set(Calendar.HOUR_OF_DAY, 10);
 
         Date date4 = calender.getTime();
         System.out.println(date4);
