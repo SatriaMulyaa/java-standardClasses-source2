@@ -47,7 +47,7 @@ public class ObjectApp {
 
     public static void main(String[] args) {
 //            execute(null);
-            execute(new Data(null));
+            execute(new Data("tes"));
     }
 
     public static void execute(Data data){
